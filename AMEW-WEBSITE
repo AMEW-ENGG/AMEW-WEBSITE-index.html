@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMEW - Anand Manohar Engineering Works</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="bg-black py-4 shadow-md">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <img src="/images/amew-logo.png" alt="AMEW Logo" class="h-10">
+      <nav class="space-x-6">
+        <a href="#home" class="hover:text-yellow-400">Home</a>
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#services" class="hover:text-yellow-400">Services</a>
+        <a href="#gallery" class="hover:text-yellow-400">Gallery</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 bg-gray-800">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Anand Manohar Engineering Works</h1>
+    <p class="text-lg text-gray-300 max-w-xl mx-auto">Precision Manufacturing of Crankshafts, Camshafts & Deep Hole Gundrilling Services</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-20 bg-gray-900">
+    <h2 class="text-3xl font-bold mb-4">About Us</h2>
+    <p class="text-gray-300 max-w-3xl">AMEW (Anand Manohar Engineering Works) is a precision machining company specializing in crankshaft and camshaft manufacturing, deep hole gundrilling, and one-off prototype crankshafts from solid round bars. We cater to compressor manufacturers, thermowell and shaft producers, and other high-precision industries.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6 md:px-20 bg-gray-800">
+    <h2 class="text-3xl font-bold mb-8">Our Services</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold">Crankshaft Manufacturing</h3>
+        <p class="text-gray-300">Custom and precision crankshaft production including prototype builds from round bar stock.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Camshaft Manufacturing</h3>
+        <p class="text-gray-300">Accurate and durable camshafts built for compressors and other industrial applications.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Deep Hole Gundrilling</h3>
+        <p class="text-gray-300">High-precision gundrilling services with depth accuracy and surface finish expertise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-16 px-6 md:px-20 bg-gray-900">
+    <h2 class="text-3xl font-bold mb-8">Gallery</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="bg-gray-700 h-40"></div>
+      <div class="bg-gray-700 h-40"></div>
+      <div class="bg-gray-700 h-40"></div>
+      <!-- Add real images later -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 md:px-20 bg-gray-800">
+    <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+    <p class="text-gray-300 mb-2">Phone: +91-7795765551</p>
+    <p class="text-gray-300 mb-2">Email: anandmanoharengg@gmail.com</p>
+    <p class="text-gray-300">Address: PLOT NO.749, HALGEKAR COMPOUND, MAJAGAON CROSS, UDYAMBAG, Belagavi, Belgaum, Karnataka, 590008<br>
+    Mobile: 7795765551<br>
+    GSTIN: 29AHGPA3662D1ZN</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-black text-gray-400">
+    &copy; 2025 Anand Manohar Engineering Works. All rights reserved.
+  </footer>
